@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    height: 100vh;
+    position: relative;
+    background: #111;
+    color: white;
+}
+h1{
+    text-align: center;
+    margin: auto;
+    padding: auto;
+    justify-content: center;
+    font-weight:bold ;
+}
+.containeeview{
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding-top: 10%;
+    margin: auto;
+}
+.containerview h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 35px;
+    margin-bottom: 25px;color: white;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.containerview .servicesview{
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: auto;
+}
+
+.containerview .servicesview .card{
+    width: 330px;
+    text-align: center;
+    background: #222;
+    padding: 20px 15px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.containerview .servicesview .card:hover{
+    background: chocolate;
+}
+
+.containerview .servicesview .card .content{
+    transition: 0.3s;
+}
+
+.containerview .servicesview .card:hover .content{
+    transform: scale(1.07);
+}
+
+.containerview .servicesview .card .content .icon{
+    padding: 5px 0;
+    color: white;
+}
+
+.containerview .servicesview .card .content .icon i{
+    font-size: 40px;
+}
+
+.containerview .servicesview .card:hover .content .title{
+    color: white;
+}
+
+.containerview .servicesview .card .content .title{
+    padding: 5px 0;
+    font-size: 24px;
+    font-weight: 500;
+    color: chocolate;
+    transition: 0.3s;
+}
+
+
+
+
+
+.containerser{
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding-top: 870%;
+    margin: auto;
+}
+.containerser h2{
+    
+    padding-top: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 35px;
+    margin-bottom: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.containerser .servicesser{
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: auto;
+}
+
+.containerser .servicesser .card{
+    width: 330px;
+    text-align: center;
+    background: #222;
+    padding: 20px 15px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.containerser .servicesser .card:hover{
+    background: chocolate;
+}
+
+.containerser .servicesser .card .content{
+    transition: 0.3s;
+}
+
+.containerser .servicesser .card:hover .content{
+    transform: scale(1.07);
+}
+
+.containerser .servicesser .card .content .icon{
+    padding: 5px 0;
+    color: white;
+}
+
+.containerser .servicesser .card .content .icon i{
+    font-size: 40px;
+}
+
+.containerser .servicesser .card:hover .content .title{
+    color: white;
+}
+
+.containerser .servicesser .card .content .title{
+    padding: 5px 0;
+    font-size: 24px;
+    font-weight: 500;
+    color: chocolate;
+    transition: 0.3s;
+}
+h3{
+    color: white;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
